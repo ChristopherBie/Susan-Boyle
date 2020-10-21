@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkred;
+    line-height: 1.4;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: white;
+    padding: 1rem;
+}
+
+.logo {
+    width: 300px;
+}
+
+section {
+    padding: 2rem;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.banner{
+    background-image: url("../images/Susan-Boyle-2.jpg");
+    background-size: cover;
+    background-position: center center;
+    min-height: 300px;
+}
+
+.banner h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-shadow: #000 3px 3px 5px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.about {
+
+}
+
+.singer-photo {
+    float: left;
+    margin-right: 1.5rem;
+    /*. margin: 0 1.5rem 1.5rem; */
+    border: 6px solid white;
+    width: 20%;
+}
+
+.music-video {
+    background-color: rgba(255, 255, 255, 0.15);
+    size: 0.2rem;
+}
+
+.the-video {
+    float: right;
+    width: 560px;
+    height: 315px;
+}
+
+.clr {
+    clear: both;
+    width: 100%;
+}
+
+/* article:after{
+    content: '';
+    display: block;
+    clear: both;
+} */
+
+footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+a {
+    color: goldenrod;
+}
+
+a:hover {
+    color: gold;
+}
+
+a:active {
+    color: yellow;
+}
